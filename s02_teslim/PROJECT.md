@@ -94,6 +94,7 @@ PROJECT.md
   - Ses efektleri: engine/sfx.py (matematik sentez), bölüm dosyasındaki `cues` listesi; konuşma altında ~-23 LU, sidechain ile kısılır
   - s01 son karesi: siyah. s02 siyahtan SectionTitle ile açılır.
 - [x] s02 kodlandı (render kullanıcıda)
+- [x] Render hızlandırma: `render_all.mjs --gpu --jobs N` (bundle tek sefer derlenir, GPU tespiti, RAM`e göre otomatik iş sayısı). Varsayılan komut: `node engine/render_all.mjs sXX --gpu --jobs 4`
 - [ ] s03 … s11
 
 ## 10. s01 pilot geri bildirimi (kullanıcı, 2026-11-02) — v2 ZORUNLU
